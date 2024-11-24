@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTo-Do Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do Web App</h1>
+    </header>
+    <main>
+        <section class="add-task">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+        
+        <section class="task-lists">
+            <div>
+                <h2>Pending Tasks</h2>
+                <ul id="pendingTasks"></ul>
+            </div>
+            <div>
+                <h2>Completed Tasks</h2>
+                <ul id="completedTasks"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2000 Basic To-Do App</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
